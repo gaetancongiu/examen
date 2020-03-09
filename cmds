@@ -1,0 +1,419 @@
+    1  mkdir dev
+    2  cd dev
+    3  mkdir workspace
+    4  ls
+    5  cd workspace
+    6  mkdir myrepo
+    7  ls
+    8  rm dev
+    9  cd
+   10  rm dev
+   11  rm -r dev
+   12  ls
+   13  cd C:
+   14  mkdir dev
+   15  cd dev
+   16  mkdir workspace
+   17  cd workspace
+   18  mkdir myrepo
+   19  cd 
+   20  cd myrepo
+   21  cd C:/dev/workspace
+   22  cd myrepo
+   23  git init script.py
+   24  git commit -m
+   25  git commit -m script.py
+   26  nano script.py
+   27  ls
+   28  nano script.py
+   29  ls
+   30  git commit -m "Hello world"
+   31  ls
+   32  cd script.py
+   33  nano script.py
+   34  rm script.py
+   35  git add script.py
+   36  git add script.py
+   37  git init
+   38  gitt add script.py
+   39  git add script.py
+   40  git commit -m "Initialisation du script Hello World
+   41  "
+   42  git commit -m "Hello Gaetan à la place de Hello World"
+   43  git status
+   44  git log
+   45  git commit -m "Hello Gaetan à la place de Hello World"
+   46  ls
+   47  git log
+   48  git commit -m "Hello BSN1 a la place de Hello World"
+   49  git log
+   50  git add script.py
+   51  git commit -m "Hello BSN1 à la place de Hello World"
+   52  git log
+   53  git log
+   54  git log
+   55  cd C:/dev/workspace
+   56  ls
+   57  git log
+   58  cd myrepo
+   59  git log
+   60  git commit -m "Boucle de multiple de 5 (max 25)"
+   61  git add script.py
+   62  git commit -m "Boucle de multiple de 5 (max 25)"
+   63  git loh
+   64  git log
+   65  git commit -m "Message indiquant l'utilité du programme"
+   66  git add script.py
+   67  git commit -m "Message indiquant l'utilité du programme"
+   68  git add script.py
+   69  git commit -m "Message indiquant le language de programmation utilisé"
+   70  git log
+   71  git checkout 1e876d9da625e245de4043a2e26f153b08809e7f
+   72  git log
+   73  git checkout
+   74  git checkout  f09eb3251380d46329ad9b2d2ca0cdcb7e0626f6 
+   75  revert git
+   76  git revert
+   77  git commit -m "faute d'ortographe ligne 9"
+   78  git add script.py
+   79  git commit -m "faute d'ortographe ligne 9"
+   80  git log
+   81  git checkout master
+   82  git branch
+   83  ls
+   84  git branch iea
+   85  ls
+   86  git branch idea
+   87  git log
+   88  git branch -d iea
+   89  git log
+   90  git commit -m "Ajout d'une question avec un input"
+   91  git add script.py
+   92  git commit -m "Ajout d'une question avec un input"
+   93  git add script.py
+   94  git commit -m "Ajout question Théotim"
+   95  git log
+   96  git checkout idea
+   97  git check master
+   98  git checkout master
+   99  git reset --hard
+  100  git log
+  101  git reset --hard  f09eb3251380d46329ad9b2d2ca0cdcb7e0626f6
+  102  git checkout idea
+  103  git add script.py
+  104  git commit -m "Ajout question sur git"
+  105  git add script.py
+  106  git commit -m "Ajout question sur Théotim"
+  107  git add script.py
+  108  git commit -m "Ajout question sur les pâtes"
+  109  git log
+  110  git log --graph --oneline --all
+  111  gitt log --graph --pretty=oneline --abbrev-commit
+  112  git log --graph --pretty=oneline --abbrev-commit
+  113  gitk
+  114  git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"
+  115   git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%
+  116  exit
+  117  lg3-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  118  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)
+  119  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  120  git checkout master
+  121  git add script.py
+  122  git commit -m "Messsage Jeux des réponses"
+  123  git merge idea
+  124  git checkout idea
+  125  git checkout idea
+  126  git log
+  127  git branche -a
+  128  git branch -a
+  129  git merge idea
+  130  git add script.py
+  131  git commit -m "Mise en place code et enlèvement des messages de git merge"
+  132  git log
+  133  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  134  cd workspace
+  135  mkdir "first online repo"
+  136  ls
+  137  rm first online repo
+  138  rm 'first online repo'
+  139  rm -r 'first online repo'
+  140  cd workspace
+  141  cd ..workspace
+  142  cd
+  143  cd /c/dev/workspace
+  144  mkdir 'first online repo'
+  145  ls
+  146  rm -r 'first online repo'
+  147  mkdir first online repo
+  148  ls
+  149  rm first online repo
+  150  rm -r first online repo
+  151  mkdir "first online repo"
+  152  ls
+  153  cd "first online repo"
+  154  git init
+  155  touch README.md
+  156  ls
+  157  nano README.md
+  158  git add README.md
+  159  ls
+  160  git add README.md
+  161  git commit -m "first commit"
+  162  git log
+  163  git remote add origin https://github.com/gaetancongiu/first-online-repo
+  164  git push -u origin master
+  165  ls
+  166  nano README.md
+  167  git status
+  168  git log
+  169  git pull origin
+  170  git status
+  171  git log
+  172  git remote add origin https://github.com/gaetancongiu/first-online-repo
+  173  git push -u origin master
+  174  git reset --hard master
+  175  git loh
+  176  git loh
+  177  git log
+  178  remove "first online depot"
+  179  rm -r "first online depot"
+  180  cd /c/dev/workspace
+  181  rm -r "first online depot"
+  182  ls
+  183  rm -r "first online repot"
+  184  rm -r "first online repo"
+  185  git init
+  186  nano README.md
+  187  git commit -m "first commit"
+  188  ls
+  189  git add README.md
+  190  git remote add origin https://github.com/gaetancongiu/first-online-repot
+  191  git push -u origin master
+  192  ls
+  193  cd myrepo
+  194  $ git remote add
+  195  $ git remote add
+  196  git remote add origin https://github.com/gaetancongiu/myrepo.git
+  197  git push -u origin master
+  198  ls
+  199  cd c/workspace
+  200  cd ..workspace
+  201  cd .workspace
+  202  cd c/dev/workspace
+  203  cd C:/dev/workspace
+  204  ls
+  205  ls
+  206  cd myrepo-master
+  207  ls
+  208  ls
+  209  git log
+  210  ls
+  211  git log
+  212  git clone
+  213  git clone https://github.com/ramijohnstone/myrepo.git
+  214  git log
+  215  ls
+  216  cd dev
+  217  cd workspace
+  218  cd C:/dev
+  219  mkdir group
+  220  cd group
+  221  git clone https://github.com/ramijohnstone/myrepo.git
+  222  git log
+  223  git clone https://github.com/ramijohnstone/myrepo.git
+  224  git log
+  225  ls
+  226  cd myrepo
+  227  git lo
+  228  git log
+  229  git commit "Question sur manu"
+  230  git commit -m "Question sur manu"
+  231  git commit -ma "Question sur Manu"
+  232  git add
+  233  git add script.py 
+  234  git commit -m "Question sur Manu"
+  235  git log
+  236  git pull
+  237  git push
+  238  git push
+  239  git pull
+  240  git push
+  241  git push
+  242  git log
+  243  git pull
+  244  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  245  git pull
+  246  git pull
+  247  git pull
+  248  git pull
+  249  git pull
+  250  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  251  git pull
+  252  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  253  git checkout -b develop
+  254  git push origin develop
+  255  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  256  git add script.py
+  257  git commit -m "création branche develop"
+  258  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  259  git push
+  260  git tag
+  261  git tag V0.1 initial version
+  262  git checkout master
+  263  git tag V0.1 initial version
+  264   git tag -a v1.3.2a -m "version 1.3.4 annotated"
+  265  git tag -l
+  266  git tag -d
+  267  git tag -l
+  268  git tag -d v1.3.2a 
+  269  git tag -a V0.1 -m "initial version"
+  270  git tag
+  271  git push origin --tags
+  272  git pull
+  273  git pull
+  274  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  275  git checkout develop
+  276  git pull
+  277  git pull
+  278  git add script.py 
+  279  git commit -m "Message de Gaétan"
+  280  git push
+  281  git pull
+  282  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  283  git push
+  284   git push --set-upstream origin develop
+  285  git pull
+  286  git ûshh
+  287  git push
+  288  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  289   git push --set-upstream origin develop
+  290  git push origin develop
+  291  git pull
+  292  git push origin develo
+  293  git push origin develo^p
+  294  git push origin develop
+  295  git pull origin develop
+  296  git push
+  297  git add script.py 
+  298  git commit -m "Resolution de conflit"
+  299  git push
+  300   git push --set-upstream origin develop
+  301  git pull
+  302  git push
+  303  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  304  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  305  CD
+  306  CD ~/.bashrc
+  307  cd ~/.bashrc
+  308  cd
+  309  cd ~/.bashrc
+  310  nano ~/.bashrc
+  311  restart
+  312  logout
+  313  graph
+  314  cd /C/
+  315  cd de
+  316  cd dev
+  317  ls
+  318  cd group/
+  319  ls
+  320  cd myrepo/
+  321  graph
+  322  checkout master
+  323  git checkout master
+  324  graph
+  325  git checkout develop 
+  326  cd c:/dev/workspace
+  327  mkdir examen
+  328  ls
+  329  cd examen
+  330  git init
+  331  mkdir script.py
+  332  rm script.py
+  333  rm -r script.py
+  334  nano script.py
+  335  nano script.py
+  336  git add script.py
+  337  ls
+  338  rm script.py
+  339  git add script.py
+  340  ls
+  341  nano script.py
+  342  git add script.py
+  343  git add script.py
+  344  ls
+  345  git add script.py
+  346  git commit "Hello world"
+  347  git commit -m "Hello world"
+  348  git status
+  349  git add script.py
+  350  git commit -m "Hello world"
+  351  git add idea
+  352  git status
+  353  git add script.py
+  354  git commit -m "Hello world"
+  355  rm idea
+  356  ls
+  357  git add script.py
+  358  git commit -m "Hello world"
+  359  git log
+  360  git add script.py
+  361  git commit -m "Première modification"
+  362  git add script.py
+  363  git commit -m "Deuxième modification"
+  364  git add script.py
+  365  git commit -m "Troisième modification"
+  366  git log
+  367  git remote add origin https://github.com/gaetancongiu/examen.git
+  368  git push origin master
+  369  ls
+  370  git add script.py
+  371  git commit -m "Message github"
+  372  git push
+  373   git push --set-upstream origin master
+  374  git push
+  375  git log
+  376  git branch develop
+  377  git push
+  378  git checkout develop
+  379  git add script.py
+  380  git commit -m "pommier"
+  381  git log
+  382  git add script.py
+  383  git commit -m "chêne"
+  384  git add script.py
+  385  git commit -m "Message Théotim"
+  386  git log
+  387  git push
+  388   git push --set-upstream origin master
+  389   git push --set-upstream origin develop
+  390  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  391  git checkout master
+  392  git merge develop
+  393  git tag -a V1.0 -m "la pratique je maîtrise"
+  394  git push
+  395  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  396  git checkout 6eead5d
+  397  git branch hotfix
+  398  git checkout hotfix
+  399  git add script.py 
+  400  git add script.py
+  401  git commit -m "Message premier coup"
+  402  git push
+  403  git push --set-upstream origin hotfix
+  404  git checkout master
+  405  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  406  git checkout hotfix
+  407  git log
+  408  git ls-tree HEAD
+  409  git checkout master
+  410  log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+  411  git $ log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+  412  git git $ log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+  413  git $ log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+  414  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+  415  log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+  416  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+  417  git push
+  418  touch cmds
+  419  history > cmds
